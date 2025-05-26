@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Livros disponíveis</h2>
+<div class="book-list">
+    <div class="book-item">
+        <img src="/static/images/book1.jpg" alt="Livro 1">
+        <h3>Livro 1</h3>
+        <p>R$ 49,90</p>
+        <button onclick="addToCart(1)">Adicionar ao carrinho</button>
+    </div>
+</div>
+{% endblock %}

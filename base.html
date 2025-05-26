@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Online</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <header>
+        <h1>Livraria Online</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/cart">Carrinho</a>
+            <a href="/admin">Admin</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 Livraria Online</p>
+    </footer>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
